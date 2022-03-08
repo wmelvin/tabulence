@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Tabulence",
+    "description": "Shows the title and URL for all open tabs as text, Markdown, or list items.",
+    "version": "0.1",
+    "permissions": ["tabs"],
+    "browser_action": {
+        "default_title": "Tabulence",
+        "default_popup": "tabulence.html",
+        "browser_style": false
+    }
+}

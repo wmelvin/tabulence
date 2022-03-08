@@ -1,0 +1,8 @@
+# Private archives, notes, etc.
+private/
+notes-private.txt
+
+# Tools config.
+.vscode/
+_0_bak/
+wipbak-list.txt
