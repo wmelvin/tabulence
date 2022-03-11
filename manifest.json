@@ -6,11 +6,17 @@
     "icons": {
         "48": "tabulence-icon.svg",
         "96": "tabulence-icon.svg"
-    },      
+    },
     "permissions": ["tabs"],
     "browser_action": {
         "default_title": "Tabulence",
         "default_popup": "tabulence.html",
         "browser_style": false
+    },
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "tabulence@bogusoft.com",
+          "update_url": "https://bogusoft.com/tabulence/updates.json"
+        }
     }
 }
