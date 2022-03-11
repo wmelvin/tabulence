@@ -7,7 +7,7 @@ There are buttons, in the popup window, to choose from the following formats:
 - **Markdown** to paste into a `README.md` file, for example.
 - **List Item** (`<a>` inside `<li>`) for pasting into a list in an HTML document.
 
-**Note:** This Firefox extension is currently a learning project and personal utility. It is not packaged or published at `addons.mozilla.org`.
+**Note:** This Firefox extension is currently a learning project and personal utility. It is not published at `addons.mozilla.org`.
 
 ## Reference
 
@@ -32,6 +32,19 @@ There are buttons, in the popup window, to choose from the following formats:
 [Working with the Tabs API (MDN)](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API)
 
 - [tabs API](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs)
+
+
+### (Self) Publishing
+
+I installed [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) (and all the *NodeJS stuff* required to run it) and ran `web-ext build` to package a `.zip` file. Turns out that, because *tabulence* is such a basic extension, it would have been simpler to just use the (already available) `zip` command to make the file. Nonetheless, `web-ext` would be very handy when developing more complex add-ons. It can do a lot more than build a zip file.
+
+**Links related to publishing an add-on:**
+- [Signing and distribution overview](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/)
+- [Distributing an add-on yourself](https://extensionworkshop.com/documentation/publish/self-distribution/)
+- [Submitting an add-on](https://extensionworkshop.com/documentation/publish/submitting-an-add-on/)
+- [Firefox Add-on Distribution Agreement](https://extensionworkshop.com/documentation/publish/firefox-add-on-distribution-agreement/)
+- [Add-on Policies](https://extensionworkshop.com/documentation/publish/add-on-policies/)
+
 
 ### JavaScript
 
