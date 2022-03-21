@@ -9,6 +9,10 @@ There are buttons, in the popup window, to choose from the following formats:
 
 **Note:** This Firefox extension is currently a learning project and personal utility. It is not published at `addons.mozilla.org`.
 
+## Popup Window
+
+![Screenshots of popup window](readme_images/tabulence-popup.gif)
+
 ## Reference
 
 ### Firefox Extensions
